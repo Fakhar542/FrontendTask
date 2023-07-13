@@ -39,7 +39,6 @@ Clone the repository by running the following command:
 bash
 Copy code
 git clone https://github.com/Fakhar542/FrontendTask.git
-Replace your-username and your-repository with your actual GitHub username and repository name.
 
 Navigate to the project's root directory:
 
