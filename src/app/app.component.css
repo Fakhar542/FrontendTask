@@ -1,0 +1,31 @@
+.table{
+    width: 100%;
+  }
+  .table-container{
+    width: 100%;
+    overflow: auto;
+  }
+  table {
+    width: 100%;
+  }
+  
+  .mat-cell{
+    border: 1px solid #eee;
+    padding: 16px;
+  }
+  .mat-header-cell{
+    border: 1px solid #eee;
+    padding: 16px;
+  }
+  
+  .bg{
+    padding: 10px 20px;
+  }
+  .b{
+    width:85px;
+    height:45px;
+    margin-top:25px;
+  }
+  th.mat-sort-header-sorted {
+    color: black;
+  }

@@ -1,0 +1,38 @@
+<div class="detail-container">
+    
+    <mat-card>
+        <h1>Property detail </h1>
+      <mat-card-title>{{ data.id.title }}</mat-card-title>
+      <mat-card-content>
+        <div fxLayout="row">
+          <div><strong>Address:</strong></div>
+          <div>{{ data.id.address }}</div>
+        </div>
+        <div fxLayout="row">
+          <div><strong>Beds:</strong></div>
+          <div>{{ data.id.beds }}</div>
+        </div>
+        <div fxLayout="row">
+          <div><strong>Bath:</strong></div>
+          <div>{{ data.id.bath }}</div>
+        </div>
+        <div fxLayout="row">
+          <div><strong>Covered Area (SQFT):</strong></div>
+          <div>{{ data.id.coveredAreaSQFT }}</div>
+        </div>
+        <div fxLayout="row">
+          <div><strong>Property Type:</strong></div>
+          <div>{{ data.id.propertyType }}</div>
+        </div>
+        <div fxLayout="row">
+          <div><strong>Commercial:</strong></div>
+          <div>{{ data.id.isCommercial ? 'Yes' : 'No' }}</div>
+        </div>
+        <div fxLayout="row">
+          <div><strong>Price:</strong></div>
+          <div>{{ data.id.price }}</div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  

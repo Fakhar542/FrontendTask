@@ -1,0 +1,126 @@
+[{ 
+    "position":"1",
+"imageUrl": "https://placehold.co/400",
+    "title": "1 Kanal House for sale",
+    "address": "DHA Phase 6, Lahore",
+    "beds": 5,
+    "bath": 6,
+    "coveredAreaSQFT": 2350,
+    "propertyType": "house",
+    "isCommercial": false,
+    "price": 65000000
+  },
+  {
+    "position":"2",
+    "imageUrl": "https://placehold.co/400",
+    "title": "1 Kanal House for sale",
+    "address": "DHA Phase 6, Lahore",
+    "beds": 5,
+    "bath": 6,
+    "coveredAreaSQFT": 2350,
+    "propertyType": "house",
+    "isCommercial": false,
+    "price": 657000000
+  },
+  {
+    "position":"3",
+    "imageUrl": "https://placehold.co/400",
+    "title": "1 Kanal House for sale",
+    "address": "DHA Phase 6, Lahore",
+    "beds": 7,
+    "bath": 6,
+    "coveredAreaSQFT": 2350,
+    "propertyType": "house",
+    "isCommercial": true,
+    "price": 605000000
+  },
+  {
+    "position":"4",
+    "imageUrl": "https://placehold.co/400",
+    "title": "1 Kanal House for sale",
+    "address": "DHA Phase 6, Lahore",
+    "beds": 5,
+    "bath": 6,
+    "coveredAreaSQFT": 2350,
+    "propertyType": "house",
+    "isCommercial": false,
+    "price": 695000000
+  },  {
+    "position":"5",
+    "imageUrl": "https://placehold.co/400",
+    "title": "3 Kanal House for sale",
+    "address": "DHA Phase 6, Lahore",
+    "beds": 5,
+    "bath": 6,
+    "coveredAreaSQFT": 2350,
+    "propertyType": "house",
+    "isCommercial": false,
+    "price": 685000000
+  },  {
+    "position":"6",
+    "imageUrl": "https://placehold.co/400",
+    "title": "7 Kanal House for sale",
+    "address": "DHA Phase 6, Lahore",
+    "beds": 5,
+    "bath": 6,
+    "coveredAreaSQFT": 2350,
+    "propertyType": "house",
+    "isCommercial": false,
+    "price": 665000000
+  },  {
+    "position":"7",
+    "imageUrl": "https://placehold.co/400",
+    "title": "13 Kanal House for sale",
+    "address": "DHA Phase 6, Lahore",
+    "beds": 10,
+    "bath": 6,
+    "coveredAreaSQFT": 2350,
+    "propertyType": "house",
+    "isCommercial": false,
+    "price": 615000000
+  },  {
+    "position":"8",
+    "imageUrl": "https://placehold.co/400",
+    "title": "1 Kanal House for sale",
+    "address": "DHA Phase 6, Lahore",
+    "beds": 5,
+    "bath": 6,
+    "coveredAreaSQFT": 2350,
+    "propertyType": "house",
+    "isCommercial": false,
+    "price": 6115000000
+  },  {
+    "position":"9",
+    "imageUrl": "https://placehold.co/400",
+    "title": "1 Kanal House for sale",
+    "address": "DHA Phase 6, Lahore",
+    "beds": 5,
+    "bath": 6,
+    "coveredAreaSQFT": 2350,
+    "propertyType": "house",
+    "isCommercial": false,
+    "price": 654000000
+  },  {
+    "position":"10",
+    "imageUrl": "https://placehold.co/400",
+    "title": "1 Kanal House for sale",
+    "address": "DHA Phase 6, Lahore",
+    "beds": 5,
+    "bath": 6,
+    "coveredAreaSQFT": 2350,
+    "propertyType": "house",
+    "isCommercial": false,
+    "price": 165000000
+  },  {
+    "position":"11",
+    "imageUrl": "https://placehold.co/400",
+    "title": "1 Kanal House for sale",
+    "address": "DHA Phase 6, Lahore",
+    "beds": 5,
+    "bath": 6,
+    "coveredAreaSQFT": 2350,
+    "propertyType": "house",
+    "isCommercial": false,
+    "price": 652000000
+  }
+]

@@ -1,0 +1,76 @@
+<div class="bg">
+  <div fxLayout="column" fxLayoutAlign="start stretch" fxLayoutGap="1em">
+    <mat-card>
+      <mat-card-title>
+        <h3 style="font-weight: bold;">Property List</h3>
+      </mat-card-title>
+      <mat-card-content>
+        <div fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="5px">
+          <div class="example-spacer"></div>
+          <div id="table-filter">
+            <mat-form-field>
+              <mat-label>Filter Cases</mat-label>
+              <input matInput (keyup)="applyFilter($event)" placeholder="Ex. ium" #input>
+              <mat-icon matSuffix>search</mat-icon>
+            </mat-form-field>
+          </div>
+        </div>
+        <div>
+          <div class="table-container">
+            <table mat-table [dataSource]="dataSource" matSort id="table">
+              <ng-container matColumnDef="position">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>Position</th>
+                <td mat-cell *matCellDef="let element">{{element.position}}</td>
+              </ng-container>
+              <ng-container matColumnDef="Imageurl">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>Image URL</th>
+                <td mat-cell *matCellDef="let element">{{element.Imageurl}}</td>
+              </ng-container>
+              <ng-container matColumnDef="title">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>Title</th>
+                <td mat-cell *matCellDef="let element">{{element.title}}</td>
+              </ng-container>
+              <ng-container matColumnDef="address">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>Address</th>
+                <td mat-cell *matCellDef="let element">{{element.address}}</td>
+              </ng-container>
+              <ng-container matColumnDef="beds">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>Beds</th>
+                <td mat-cell *matCellDef="let element">{{element.beds}}</td>
+              </ng-container>
+              <ng-container matColumnDef="bath">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>Bath</th>
+                <td mat-cell *matCellDef="let element">{{element.bath}}</td>
+              </ng-container>
+              <ng-container matColumnDef="coveredAreaSQFT">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>Covered Area (SQFT)</th>
+                <td mat-cell *matCellDef="let element">{{element.coveredAreaSQFT}}</td>
+              </ng-container>
+              <ng-container matColumnDef="propertyType">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>Property Type</th>
+                <td mat-cell *matCellDef="let element">{{element.propertyType}}</td>
+              </ng-container>
+              <ng-container matColumnDef="isCommercial">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>Commercial</th>
+                <td mat-cell *matCellDef="let element">{{element.isCommercial}}</td>
+              </ng-container>
+              <ng-container matColumnDef="price">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>Price</th>
+                <td mat-cell *matCellDef="let element">{{element.price}}</td>
+              </ng-container>
+              <ng-container matColumnDef="action">
+                <th mat-header-cell *matHeaderCellDef>Action</th>
+                <td mat-cell *matCellDef="let element">
+                  <button mat-flat-button color="accent" (click)="movieDetails(element)">View</button>
+                </td>
+              </ng-container>
+              <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+              <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+            </table>
+          </div>
+        </div>
+        <mat-paginator #paginatorRef [pageSizeOptions]="[8, 10, 20, 50, 100]" showFirstLastButtons></mat-paginator>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
